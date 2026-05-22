@@ -1,0 +1,3 @@
+image,ingredients,cuisine,stage,dish_prediction,instruction,confidence
+img_syn_712d8e9e-76d.jpg,"Paneer cubes, Butter, Heavy cream, Tomato paste, Kashmiri red chilli, Kasuri methi",Indian,raw,Paneer Butter Masala,Sauté ginger-garlic paste and onions in butter.,0.81
+img_syn_daa486cd-bb6.jpg,"Basmati rice, Chicken thighs, Saffron, Ghee, Fried onions, Cardamom",Indian,preparation,Hyderabadi Chicken Biryani,Wash and soak basmati rice for 30 minutes.,0.82

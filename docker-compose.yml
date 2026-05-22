@@ -1,0 +1,44 @@
+version: "3.8"
+
+services:
+  # ---- Frontend (Next.js) ----
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://backend:8000
+      # FIX #2 — explicitly disable mock mode in Docker so real images are analyzed
+      - NEXT_PUBLIC_USE_MOCK=false
+    depends_on:
+      - backend
+    networks:
+      - cooklens
+
+  # ---- Backend (FastAPI) ----
+  backend:
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    ports:
+      - "8000:8000"
+    environment:
+      # Gemini API key — set this in your shell or a .env file before running docker-compose
+      # export GEMINI_API_KEY=your_key_here && docker-compose up
+      - GEMINI_API_KEY=AIzaSyCAThtnTCbkha0hmeiwe5do7b_n5ARJ_II
+      - AI_BASE_URL=${AI_BASE_URL:-https://generativelanguage.googleapis.com/v1beta/openai/}
+      - AI_MODEL=${AI_MODEL:-gemini-2.0-flash}
+      - USE_MOCK_DATA=${USE_MOCK_DATA:-false}
+    volumes:
+      - uploads:/app/uploads
+    networks:
+      - cooklens
+
+volumes:
+  uploads:
+
+networks:
+  cooklens:
+    driver: bridge

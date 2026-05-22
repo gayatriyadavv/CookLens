@@ -1,0 +1,267 @@
+[
+  {
+    "image_path": "datasets/images/img_syn_712d8e9e-76d.jpg",
+    "prompt": "Provide culinary copilot analysis for this Paneer Butter Masala image.",
+    "response": {
+      "id": "59fe497b-3b3c-47a7-810d-89e88d029e51",
+      "image_url": "/uploads/img_syn_712d8e9e-76d.jpg",
+      "ingredients": [
+        {
+          "name": "Paneer cubes",
+          "confidence": 0.88,
+          "emoji": "🧀",
+          "quantity": "250g"
+        },
+        {
+          "name": "Butter",
+          "confidence": 0.88,
+          "emoji": "🧈",
+          "quantity": "2 tbsp"
+        },
+        {
+          "name": "Heavy cream",
+          "confidence": 0.86,
+          "emoji": "🥛",
+          "quantity": "3 tbsp"
+        },
+        {
+          "name": "Tomato paste",
+          "confidence": 0.89,
+          "emoji": "🍅",
+          "quantity": "200ml"
+        },
+        {
+          "name": "Kashmiri red chilli",
+          "confidence": 0.96,
+          "emoji": "🌶️",
+          "quantity": "1.5 tsp"
+        },
+        {
+          "name": "Kasuri methi",
+          "confidence": 0.89,
+          "emoji": "🍃",
+          "quantity": "1 tsp"
+        }
+      ],
+      "stage": "raw",
+      "dish_prediction": {
+        "name": "Paneer Butter Masala",
+        "cuisine": "Indian",
+        "confidence": 0.81,
+        "description": "A delicious looking Paneer Butter Masala in a raw cooking stage.",
+        "alternatives": [
+          "Hyderabadi Chicken Biryani",
+          "Masala Dosa"
+        ],
+        "reasoning": "Visual Cues -> Yellow saffron grains. Ingredients -> Paneer cubes, Butter, Heavy cream. Stage -> raw. Result -> Paneer Butter Masala."
+      },
+      "instructions": [
+        {
+          "step_number": 1,
+          "instruction": "Sauté ginger-garlic paste and onions in butter.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 2,
+          "instruction": "Add tomato purée and Kashmiri red chilli powder, cook until oil separates.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 3,
+          "instruction": "Pour in water, simmer, and blend into a silky smooth gravy.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 4,
+          "instruction": "Add paneer cubes and simmer on low heat.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 5,
+          "instruction": "Stir in heavy cream and crushed kasuri methi.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        }
+      ],
+      "remaining_time": "10 minutes",
+      "tips": [
+        "Keep spices fresh for best results.",
+        "Sauté onions slowly to build deep, sweet base notes."
+      ],
+      "copilot": {
+        "next_step": "Continue standard raw processing.",
+        "mistakes_detected": [
+          "Heat slightly uneven"
+        ],
+        "fixes": [
+          "Stir gently from the bottom of the pan"
+        ],
+        "readiness_percent": 17.0,
+        "readiness_label": "Progress: Raw"
+      },
+      "nutrition": {
+        "calories": 480,
+        "protein_g": 18.0,
+        "carbs_g": 12.0,
+        "fat_g": 38.0,
+        "fiber_g": 2.0,
+        "tags": []
+      },
+      "spice_recommendations": [],
+      "cuisine_style": "Indian",
+      "language": "en"
+    },
+    "metadata": {
+      "source": "synthetic",
+      "cuisine": "Indian",
+      "difficulty": "medium",
+      "stage": "raw",
+      "created_at": "07a2fa1f"
+    }
+  },
+  {
+    "image_path": "datasets/images/img_syn_daa486cd-bb6.jpg",
+    "prompt": "Detect visible ingredients in this Indian cooking photo of Hyderabadi Chicken Biryani.",
+    "response": {
+      "id": "3ce9174d-10cb-4cd2-901e-3163d7bec776",
+      "image_url": "/uploads/img_syn_daa486cd-bb6.jpg",
+      "ingredients": [
+        {
+          "name": "Basmati rice",
+          "confidence": 0.97,
+          "emoji": "🍚",
+          "quantity": "500g"
+        },
+        {
+          "name": "Chicken thighs",
+          "confidence": 0.93,
+          "emoji": "🍗",
+          "quantity": "600g"
+        },
+        {
+          "name": "Saffron",
+          "confidence": 0.92,
+          "emoji": "🟡",
+          "quantity": "A pinch"
+        },
+        {
+          "name": "Ghee",
+          "confidence": 0.94,
+          "emoji": "🧈",
+          "quantity": "3 tbsp"
+        },
+        {
+          "name": "Fried onions",
+          "confidence": 0.92,
+          "emoji": "🧅",
+          "quantity": "1 cup"
+        },
+        {
+          "name": "Cardamom",
+          "confidence": 0.94,
+          "emoji": "🫛",
+          "quantity": "4 pcs"
+        }
+      ],
+      "stage": "preparation",
+      "dish_prediction": {
+        "name": "Hyderabadi Chicken Biryani",
+        "cuisine": "Indian",
+        "confidence": 0.82,
+        "description": "A delicious looking Hyderabadi Chicken Biryani in a preparation cooking stage.",
+        "alternatives": [
+          "Paneer Butter Masala",
+          "Masala Dosa"
+        ],
+        "reasoning": "Visual Cues -> Yellow saffron grains. Ingredients -> Basmati rice, Chicken thighs, Saffron. Stage -> preparation. Result -> Hyderabadi Chicken Biryani."
+      },
+      "instructions": [
+        {
+          "step_number": 1,
+          "instruction": "Wash and soak basmati rice for 30 minutes.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 2,
+          "instruction": "Marinate chicken in spiced yogurt, ginger-garlic paste and mint.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 3,
+          "instruction": "Par-boil rice with whole spices until 70% cooked.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 4,
+          "instruction": "Layer marinated chicken and par-boiled rice in a heavy-bottomed pot.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 5,
+          "instruction": "Pour saffron milk and ghee over the top layer.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        },
+        {
+          "step_number": 6,
+          "instruction": "Seal pot with dough and slow-cook (dum) on low flame until aromatic.",
+          "duration": null,
+          "temperature": null,
+          "tip": null
+        }
+      ],
+      "remaining_time": "20 minutes",
+      "tips": [
+        "Keep spices fresh for best results.",
+        "Sauté onions slowly to build deep, sweet base notes."
+      ],
+      "copilot": {
+        "next_step": "Continue standard preparation processing.",
+        "mistakes_detected": [
+          "Heat slightly uneven"
+        ],
+        "fixes": [
+          "Stir gently from the bottom of the pan"
+        ],
+        "readiness_percent": 69.0,
+        "readiness_label": "Progress: Preparation"
+      },
+      "nutrition": {
+        "calories": 620,
+        "protein_g": 38.0,
+        "carbs_g": 68.0,
+        "fat_g": 20.0,
+        "fiber_g": 3.0,
+        "tags": []
+      },
+      "spice_recommendations": [],
+      "cuisine_style": "Indian",
+      "language": "en"
+    },
+    "metadata": {
+      "source": "synthetic",
+      "cuisine": "Indian",
+      "difficulty": "medium",
+      "stage": "preparation",
+      "created_at": "8d1db318"
+    }
+  }
+]

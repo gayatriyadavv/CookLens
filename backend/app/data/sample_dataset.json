@@ -1,0 +1,380 @@
+[
+  {
+    "image_path": "datasets/sample/image_001.jpg",
+    "prompt": "Analyze this image of butter chicken being cooked in a pan",
+    "response": {
+      "id": "sample-001",
+      "ingredients": [
+        {"name": "Chicken thighs", "confidence": 0.95, "emoji": "🍗", "quantity": "500g"},
+        {"name": "Butter", "confidence": 0.92, "emoji": "🧈", "quantity": "3 tbsp"},
+        {"name": "Tomato purée", "confidence": 0.90, "emoji": "🍅", "quantity": "200ml"},
+        {"name": "Heavy cream", "confidence": 0.88, "emoji": "🥛", "quantity": "100ml"},
+        {"name": "Garam masala", "confidence": 0.85, "emoji": "🌿", "quantity": "1 tsp"},
+        {"name": "Kasuri methi", "confidence": 0.80, "emoji": "🍃", "quantity": "1 tsp"},
+        {"name": "Ginger-garlic paste", "confidence": 0.87, "emoji": "🧄", "quantity": "1 tbsp"},
+        {"name": "Green chilli", "confidence": 0.78, "emoji": "🌶️", "quantity": "2 pcs"}
+      ],
+      "stage": "cooking",
+      "dish_prediction": {"name": "Butter Chicken (Murgh Makhani)", "cuisine": "Indian", "confidence": 0.93, "description": "Classic North-Indian creamy tomato curry with tender chicken pieces."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Marinate chicken in yogurt, turmeric, chilli powder and salt for at least 30 min.", "duration": "30 min", "tip": "Overnight marination gives the best flavour."},
+        {"step_number": 2, "instruction": "Grill or pan-sear marinated chicken until charred. Set aside.", "duration": "8 min", "temperature": "220°C"},
+        {"step_number": 3, "instruction": "Melt butter in a heavy pan. Sauté ginger-garlic paste until fragrant.", "duration": "2 min", "temperature": "Medium"},
+        {"step_number": 4, "instruction": "Add tomato purée and cook until oil separates.", "duration": "10 min", "tip": "Stir frequently to avoid burning."},
+        {"step_number": 5, "instruction": "Add garam masala, chilli powder, and sugar. Stir well.", "duration": "1 min"},
+        {"step_number": 6, "instruction": "Pour in heavy cream, mix, then add the seared chicken pieces.", "duration": "5 min"},
+        {"step_number": 7, "instruction": "Simmer on low heat. Crush kasuri methi and sprinkle on top.", "duration": "10 min", "temperature": "Low"},
+        {"step_number": 8, "instruction": "Garnish with a swirl of cream and fresh coriander. Serve with naan.", "duration": "1 min"}
+      ],
+      "remaining_time": "15 minutes",
+      "tips": ["Use bone-in chicken for richer flavour.", "Add a pinch of sugar to balance acidity.", "Don't boil after adding cream."],
+      "copilot": {"next_step": "Add cream and simmer for 10 more minutes.", "mistakes_detected": ["Tomato base looks slightly under-cooked."], "fixes": ["Cook tomato purée 3-4 more minutes."], "readiness_percent": 65.0, "readiness_label": "Cooking — Simmer Phase"},
+      "nutrition": {"calories": 490, "protein_g": 32.0, "carbs_g": 14.0, "fat_g": 34.0, "fiber_g": 2.5, "tags": ["High Protein", "Rich", "Gluten-Free"]},
+      "spice_recommendations": [
+        {"name": "Kashmiri Red Chilli", "emoji": "🌶️", "reason": "Gives vibrant colour without excessive heat."},
+        {"name": "Cardamom", "emoji": "🫛", "reason": "Adds a warm, aromatic layer to the gravy."}
+      ],
+      "cuisine_style": "North Indian",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Indian", "difficulty": "medium"}
+  },
+  {
+    "image_path": "datasets/sample/image_002.jpg",
+    "prompt": "What dish is this pasta with egg sauce? Tell me the ingredients and cooking stage.",
+    "response": {
+      "id": "sample-002",
+      "ingredients": [
+        {"name": "Spaghetti", "confidence": 0.96, "emoji": "🍝", "quantity": "400g"},
+        {"name": "Guanciale", "confidence": 0.91, "emoji": "🥓", "quantity": "150g"},
+        {"name": "Egg yolks", "confidence": 0.93, "emoji": "🥚", "quantity": "4 pcs"},
+        {"name": "Pecorino Romano", "confidence": 0.89, "emoji": "🧀", "quantity": "100g"},
+        {"name": "Black pepper", "confidence": 0.94, "emoji": "🫚", "quantity": "2 tsp"}
+      ],
+      "stage": "almost_done",
+      "dish_prediction": {"name": "Pasta Carbonara", "cuisine": "Italian", "confidence": 0.95, "description": "Roman classic — silky egg-and-cheese sauce clinging to al-dente spaghetti."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Cook spaghetti in salted water until al dente.", "duration": "10 min"},
+        {"step_number": 2, "instruction": "Render guanciale strips in a cold pan over medium heat.", "duration": "7 min"},
+        {"step_number": 3, "instruction": "Whisk egg yolks with Pecorino and black pepper.", "duration": "2 min"},
+        {"step_number": 4, "instruction": "Remove pan from heat. Add drained pasta.", "duration": "1 min"},
+        {"step_number": 5, "instruction": "Pour egg mixture over pasta, toss vigorously.", "duration": "2 min"},
+        {"step_number": 6, "instruction": "Plate with extra Pecorino and cracked pepper.", "duration": "1 min"}
+      ],
+      "remaining_time": "3 minutes",
+      "tips": ["Never add cream to authentic carbonara.", "Toss off the heat to avoid scrambled eggs.", "Reserve pasta water for creaminess."],
+      "copilot": {"next_step": "Toss pasta with egg mixture off the heat.", "mistakes_detected": ["Pan might be too hot."], "fixes": ["Let pan cool 30 seconds before adding egg mixture."], "readiness_percent": 90.0, "readiness_label": "Almost Done — Final Toss"},
+      "nutrition": {"calories": 620, "protein_g": 26.0, "carbs_g": 65.0, "fat_g": 28.0, "fiber_g": 3.0, "tags": ["High Carb", "Comfort Food"]},
+      "spice_recommendations": [
+        {"name": "Black Pepper", "emoji": "🫚", "reason": "The defining spice — use freshly cracked."},
+        {"name": "Nutmeg", "emoji": "🥜", "reason": "A tiny grating adds subtle warmth."}
+      ],
+      "cuisine_style": "Italian (Roman)",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Italian", "difficulty": "medium"}
+  },
+  {
+    "image_path": "datasets/sample/image_003.jpg",
+    "prompt": "I see fresh vegetables on a cutting board. What salad can I make?",
+    "response": {
+      "id": "sample-003",
+      "ingredients": [
+        {"name": "Romaine lettuce", "confidence": 0.97, "emoji": "🥬", "quantity": "1 head"},
+        {"name": "Cherry tomatoes", "confidence": 0.95, "emoji": "🍅", "quantity": "200g"},
+        {"name": "Cucumber", "confidence": 0.94, "emoji": "🥒", "quantity": "1 pc"},
+        {"name": "Red onion", "confidence": 0.90, "emoji": "🧅", "quantity": "½ pc"},
+        {"name": "Olive oil", "confidence": 0.88, "emoji": "🫒", "quantity": "3 tbsp"},
+        {"name": "Lemon", "confidence": 0.86, "emoji": "🍋", "quantity": "1 pc"}
+      ],
+      "stage": "raw",
+      "dish_prediction": {"name": "Garden Salad", "cuisine": "International", "confidence": 0.92, "description": "Fresh mixed green salad with a lemon-olive oil vinaigrette."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Wash and dry all vegetables.", "duration": "5 min"},
+        {"step_number": 2, "instruction": "Tear lettuce into bite-sized pieces.", "duration": "2 min"},
+        {"step_number": 3, "instruction": "Halve tomatoes, slice cucumber and onion.", "duration": "3 min"},
+        {"step_number": 4, "instruction": "Combine in a large bowl.", "duration": "1 min"},
+        {"step_number": 5, "instruction": "Whisk olive oil, lemon juice, salt and pepper.", "duration": "1 min"},
+        {"step_number": 6, "instruction": "Drizzle dressing, toss and serve.", "duration": "1 min"}
+      ],
+      "remaining_time": "13 minutes",
+      "tips": ["Dress just before serving for maximum crispness.", "Add feta for a Greek twist.", "Use a salad spinner."],
+      "copilot": {"next_step": "Wash and chop all vegetables.", "mistakes_detected": [], "fixes": [], "readiness_percent": 0.0, "readiness_label": "Raw — Not Started"},
+      "nutrition": {"calories": 120, "protein_g": 3.0, "carbs_g": 10.0, "fat_g": 8.0, "fiber_g": 4.0, "tags": ["Low Calorie", "Vegan", "Gluten-Free"]},
+      "spice_recommendations": [
+        {"name": "Dried Oregano", "emoji": "🌿", "reason": "Classic Mediterranean herb."},
+        {"name": "Sumac", "emoji": "🔴", "reason": "Tart spice that elevates salads."}
+      ],
+      "cuisine_style": "International",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "International", "difficulty": "easy"}
+  },
+  {
+    "image_path": "datasets/sample/image_004.jpg",
+    "prompt": "Analyze this beautifully plated sushi roll with salmon and avocado.",
+    "response": {
+      "id": "sample-004",
+      "ingredients": [
+        {"name": "Sushi rice", "confidence": 0.96, "emoji": "🍚", "quantity": "300g"},
+        {"name": "Nori seaweed", "confidence": 0.94, "emoji": "🟢", "quantity": "4 sheets"},
+        {"name": "Fresh salmon", "confidence": 0.93, "emoji": "🐟", "quantity": "200g"},
+        {"name": "Avocado", "confidence": 0.91, "emoji": "🥑", "quantity": "1 pc"},
+        {"name": "Rice vinegar", "confidence": 0.88, "emoji": "🍶", "quantity": "3 tbsp"},
+        {"name": "Soy sauce", "confidence": 0.90, "emoji": "🫘", "quantity": "For dipping"},
+        {"name": "Wasabi", "confidence": 0.85, "emoji": "🟩", "quantity": "1 tsp"}
+      ],
+      "stage": "done",
+      "dish_prediction": {"name": "Salmon Avocado Maki Roll", "cuisine": "Japanese", "confidence": 0.94, "description": "Classic maki sushi roll with fresh salmon and creamy avocado."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Rinse and cook sushi rice.", "duration": "20 min"},
+        {"step_number": 2, "instruction": "Season rice with vinegar, sugar and salt.", "duration": "5 min"},
+        {"step_number": 3, "instruction": "Spread rice on nori, leaving 1 cm at top.", "duration": "2 min"},
+        {"step_number": 4, "instruction": "Lay salmon and avocado across the centre.", "duration": "1 min"},
+        {"step_number": 5, "instruction": "Roll tightly with bamboo mat.", "duration": "2 min"},
+        {"step_number": 6, "instruction": "Slice with a wet sharp knife.", "duration": "1 min"},
+        {"step_number": 7, "instruction": "Serve with soy sauce and wasabi.", "duration": "1 min"}
+      ],
+      "remaining_time": "0 minutes",
+      "tips": ["Keep hands wet with vinegar water.", "Use sashimi-grade fish.", "A sharp wet knife gives clean cuts."],
+      "copilot": {"next_step": "Plate and serve immediately!", "mistakes_detected": [], "fixes": [], "readiness_percent": 100.0, "readiness_label": "Done — Ready to Serve"},
+      "nutrition": {"calories": 380, "protein_g": 22.0, "carbs_g": 48.0, "fat_g": 10.0, "fiber_g": 3.5, "tags": ["High Protein", "Omega-3 Rich"]},
+      "spice_recommendations": [
+        {"name": "Wasabi", "emoji": "🟩", "reason": "Sinus-clearing heat that pairs with raw fish."},
+        {"name": "Togarashi", "emoji": "🌶️", "reason": "Seven-spice blend for a gentle kick."}
+      ],
+      "cuisine_style": "Japanese",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Japanese", "difficulty": "hard"}
+  },
+  {
+    "image_path": "datasets/sample/image_005.jpg",
+    "prompt": "I'm preparing chicken biryani — the marination just started. How far along am I?",
+    "response": {
+      "id": "sample-005",
+      "ingredients": [
+        {"name": "Basmati rice", "confidence": 0.96, "emoji": "🍚", "quantity": "500g"},
+        {"name": "Chicken drumsticks", "confidence": 0.94, "emoji": "🍗", "quantity": "8 pcs"},
+        {"name": "Yogurt", "confidence": 0.90, "emoji": "🥛", "quantity": "1 cup"},
+        {"name": "Biryani masala", "confidence": 0.88, "emoji": "🌿", "quantity": "2 tbsp"},
+        {"name": "Saffron", "confidence": 0.85, "emoji": "🟡", "quantity": "A pinch"},
+        {"name": "Fried onions", "confidence": 0.92, "emoji": "🧅", "quantity": "2 cups"},
+        {"name": "Mint leaves", "confidence": 0.87, "emoji": "🍃", "quantity": "½ cup"},
+        {"name": "Ghee", "confidence": 0.91, "emoji": "🧈", "quantity": "3 tbsp"}
+      ],
+      "stage": "preparation",
+      "dish_prediction": {"name": "Hyderabadi Chicken Biryani", "cuisine": "Indian", "confidence": 0.92, "description": "Layered rice-and-chicken dish slow-cooked to aromatic perfection."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Wash and soak basmati rice for 30 minutes.", "duration": "30 min"},
+        {"step_number": 2, "instruction": "Marinate chicken with yogurt and spices.", "duration": "60 min"},
+        {"step_number": 3, "instruction": "Par-boil rice with whole spices.", "duration": "8 min"},
+        {"step_number": 4, "instruction": "Layer chicken and rice in a heavy pot.", "duration": "5 min"},
+        {"step_number": 5, "instruction": "Top with fried onions, saffron milk, and ghee.", "duration": "2 min"},
+        {"step_number": 6, "instruction": "Seal and cook on very low heat (dum).", "duration": "25 min"},
+        {"step_number": 7, "instruction": "Rest, then gently mix before serving.", "duration": "5 min"}
+      ],
+      "remaining_time": "75 minutes",
+      "tips": ["Soak rice for long, separate grains.", "Seal the pot tightly for the dum effect.", "Serve with raita."],
+      "copilot": {"next_step": "Complete marination and start soaking rice.", "mistakes_detected": ["Rice hasn't been soaked yet."], "fixes": ["Start soaking rice immediately."], "readiness_percent": 20.0, "readiness_label": "Preparation — Marination Phase"},
+      "nutrition": {"calories": 580, "protein_g": 35.0, "carbs_g": 62.0, "fat_g": 18.0, "fiber_g": 2.0, "tags": ["High Protein", "Festive Dish"]},
+      "spice_recommendations": [
+        {"name": "Saffron", "emoji": "🟡", "reason": "Signature golden hue and floral aroma."},
+        {"name": "Star Anise", "emoji": "⭐", "reason": "Sweet anise note for the rice."},
+        {"name": "Mace", "emoji": "🔶", "reason": "Subtle warm flavour."}
+      ],
+      "cuisine_style": "Hyderabadi Indian",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Indian", "difficulty": "hard"}
+  },
+  {
+    "image_path": "datasets/sample/image_006.jpg",
+    "prompt": "Help me with this Thai stir-fry noodle dish — it looks like Pad Thai.",
+    "response": {
+      "id": "sample-006",
+      "ingredients": [
+        {"name": "Rice noodles", "confidence": 0.95, "emoji": "🍜", "quantity": "250g"},
+        {"name": "Shrimp", "confidence": 0.92, "emoji": "🦐", "quantity": "200g"},
+        {"name": "Tamarind paste", "confidence": 0.88, "emoji": "🟤", "quantity": "2 tbsp"},
+        {"name": "Fish sauce", "confidence": 0.90, "emoji": "🐟", "quantity": "2 tbsp"},
+        {"name": "Palm sugar", "confidence": 0.85, "emoji": "🍬", "quantity": "1 tbsp"},
+        {"name": "Bean sprouts", "confidence": 0.91, "emoji": "🌱", "quantity": "1 cup"},
+        {"name": "Roasted peanuts", "confidence": 0.89, "emoji": "🥜", "quantity": "¼ cup"},
+        {"name": "Lime", "confidence": 0.87, "emoji": "🍋", "quantity": "1 pc"}
+      ],
+      "stage": "cooking",
+      "dish_prediction": {"name": "Pad Thai", "cuisine": "Thai", "confidence": 0.94, "description": "Thailand's iconic stir-fried rice noodles."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Soak rice noodles in warm water.", "duration": "15 min"},
+        {"step_number": 2, "instruction": "Mix tamarind, fish sauce, and palm sugar into a sauce.", "duration": "2 min"},
+        {"step_number": 3, "instruction": "Cook shrimp in a hot wok until pink.", "duration": "3 min"},
+        {"step_number": 4, "instruction": "Scramble eggs, push to one side.", "duration": "1 min"},
+        {"step_number": 5, "instruction": "Add noodles and sauce, toss until absorbed.", "duration": "3 min"},
+        {"step_number": 6, "instruction": "Return shrimp, add bean sprouts. Toss.", "duration": "1 min"},
+        {"step_number": 7, "instruction": "Plate with peanuts and lime.", "duration": "1 min"}
+      ],
+      "remaining_time": "8 minutes",
+      "tips": ["High heat and quick tossing are essential.", "Don't overcook bean sprouts.", "Squeeze lime before eating."],
+      "copilot": {"next_step": "Add noodles and sauce to the wok.", "mistakes_detected": ["Wok temperature may have dropped."], "fixes": ["Increase heat to maximum."], "readiness_percent": 50.0, "readiness_label": "Cooking — Stir-Fry Phase"},
+      "nutrition": {"calories": 440, "protein_g": 24.0, "carbs_g": 52.0, "fat_g": 14.0, "fiber_g": 3.0, "tags": ["Gluten-Free", "High Protein"]},
+      "spice_recommendations": [
+        {"name": "Dried Chilli Flakes", "emoji": "🌶️", "reason": "Adjustable heat."},
+        {"name": "White Pepper", "emoji": "⚪", "reason": "Traditional Thai seasoning."}
+      ],
+      "cuisine_style": "Thai Street Food",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Thai", "difficulty": "medium"}
+  },
+  {
+    "image_path": "datasets/sample/image_007.jpg",
+    "prompt": "Identify this pizza in the oven — it looks almost ready.",
+    "response": {
+      "id": "sample-007",
+      "ingredients": [
+        {"name": "Pizza dough", "confidence": 0.96, "emoji": "🍕", "quantity": "1 ball (280g)"},
+        {"name": "San Marzano tomatoes", "confidence": 0.91, "emoji": "🍅", "quantity": "200g"},
+        {"name": "Fresh mozzarella", "confidence": 0.94, "emoji": "🧀", "quantity": "200g"},
+        {"name": "Fresh basil", "confidence": 0.92, "emoji": "🌿", "quantity": "8 leaves"},
+        {"name": "Extra-virgin olive oil", "confidence": 0.89, "emoji": "🫒", "quantity": "1 tbsp"}
+      ],
+      "stage": "almost_done",
+      "dish_prediction": {"name": "Margherita Pizza", "cuisine": "Italian", "confidence": 0.96, "description": "Neapolitan-style pizza with tomato, mozzarella, and basil."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Preheat oven to highest temperature.", "duration": "30 min", "temperature": "250–300°C"},
+        {"step_number": 2, "instruction": "Stretch dough by hand into a 12-inch round.", "duration": "3 min"},
+        {"step_number": 3, "instruction": "Spread crushed tomatoes thinly.", "duration": "2 min"},
+        {"step_number": 4, "instruction": "Add torn mozzarella pieces.", "duration": "1 min"},
+        {"step_number": 5, "instruction": "Bake until crust is puffed and charred.", "duration": "6 min", "temperature": "300°C"},
+        {"step_number": 6, "instruction": "Add basil and drizzle olive oil.", "duration": "1 min"}
+      ],
+      "remaining_time": "2 minutes",
+      "tips": ["Use 00 flour for authentic crust.", "Less is more with toppings.", "Add basil after baking."],
+      "copilot": {"next_step": "Check for leopard-spot charring on the crust.", "mistakes_detected": ["Centre may be undercooked."], "fixes": ["Rotate pizza 180° for even cooking."], "readiness_percent": 85.0, "readiness_label": "Almost Done — In the Oven"},
+      "nutrition": {"calories": 350, "protein_g": 16.0, "carbs_g": 40.0, "fat_g": 14.0, "fiber_g": 2.5, "tags": ["Vegetarian", "Classic"]},
+      "spice_recommendations": [
+        {"name": "Red Chilli Flakes", "emoji": "🌶️", "reason": "Popular table-side addition."},
+        {"name": "Dried Oregano", "emoji": "🌿", "reason": "Rustic herby note."}
+      ],
+      "cuisine_style": "Italian (Neapolitan)",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Italian", "difficulty": "medium"}
+  },
+  {
+    "image_path": "datasets/sample/image_008.jpg",
+    "prompt": "This looks like Mexican tacos cooking on a spit. Analyze the dish.",
+    "response": {
+      "id": "sample-008",
+      "ingredients": [
+        {"name": "Pork shoulder", "confidence": 0.94, "emoji": "🐖", "quantity": "500g"},
+        {"name": "Pineapple", "confidence": 0.91, "emoji": "🍍", "quantity": "4 slices"},
+        {"name": "Dried guajillo chillies", "confidence": 0.87, "emoji": "🌶️", "quantity": "4 pcs"},
+        {"name": "Corn tortillas", "confidence": 0.93, "emoji": "🌮", "quantity": "12 pcs"},
+        {"name": "White onion", "confidence": 0.90, "emoji": "🧅", "quantity": "1 pc"},
+        {"name": "Coriander", "confidence": 0.88, "emoji": "🌿", "quantity": "1 bunch"},
+        {"name": "Achiote paste", "confidence": 0.82, "emoji": "🟠", "quantity": "2 tbsp"}
+      ],
+      "stage": "cooking",
+      "dish_prediction": {"name": "Tacos Al Pastor", "cuisine": "Mexican", "confidence": 0.93, "description": "Marinated pork with pineapple on corn tortillas."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Toast and blend guajillo chillies with achiote paste.", "duration": "10 min"},
+        {"step_number": 2, "instruction": "Marinate thinly sliced pork.", "duration": "120 min"},
+        {"step_number": 3, "instruction": "Thread pork onto vertical spit.", "duration": "5 min"},
+        {"step_number": 4, "instruction": "Cook slowly with pineapple on top.", "duration": "40 min"},
+        {"step_number": 5, "instruction": "Shave cooked outer layer.", "duration": "5 min"},
+        {"step_number": 6, "instruction": "Assemble tacos with toppings.", "duration": "5 min"},
+        {"step_number": 7, "instruction": "Serve with salsa verde and lime.", "duration": "1 min"}
+      ],
+      "remaining_time": "25 minutes",
+      "tips": ["Achiote gives the signature colour.", "Pineapple tenderises the pork.", "Double-layer small tortillas."],
+      "copilot": {"next_step": "Continue slow-cooking. Shave once outer layer caramelises.", "mistakes_detected": ["Heat may be too high."], "fixes": ["Reduce to medium heat and baste."], "readiness_percent": 55.0, "readiness_label": "Cooking — Slow-Roasting Phase"},
+      "nutrition": {"calories": 410, "protein_g": 28.0, "carbs_g": 38.0, "fat_g": 16.0, "fiber_g": 4.0, "tags": ["High Protein", "Street Food"]},
+      "spice_recommendations": [
+        {"name": "Cumin", "emoji": "🟤", "reason": "Essential in Mexican cooking."},
+        {"name": "Chipotle", "emoji": "🌶️", "reason": "Smoky depth."},
+        {"name": "Mexican Oregano", "emoji": "🌿", "reason": "More citrusy than Mediterranean."}
+      ],
+      "cuisine_style": "Mexican Street Food",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Mexican", "difficulty": "hard"}
+  },
+  {
+    "image_path": "datasets/sample/image_009.jpg",
+    "prompt": "Analyze this bowl of ramen — the broth looks creamy and the toppings are arranged.",
+    "response": {
+      "id": "sample-009",
+      "ingredients": [
+        {"name": "Ramen noodles", "confidence": 0.96, "emoji": "🍜", "quantity": "200g"},
+        {"name": "Pork belly (chashu)", "confidence": 0.93, "emoji": "🐖", "quantity": "200g"},
+        {"name": "Tonkotsu broth", "confidence": 0.90, "emoji": "🍲", "quantity": "800ml"},
+        {"name": "Soft-boiled egg", "confidence": 0.92, "emoji": "🥚", "quantity": "2 pcs"},
+        {"name": "Nori", "confidence": 0.88, "emoji": "🟢", "quantity": "2 sheets"},
+        {"name": "Green onion", "confidence": 0.91, "emoji": "🧅", "quantity": "2 stalks"}
+      ],
+      "stage": "cooking",
+      "dish_prediction": {"name": "Tonkotsu Ramen", "cuisine": "Japanese", "confidence": 0.94, "description": "Rich pork-bone broth ramen with chashu and ajitama."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Simmer pork bones 8-12 hours for broth.", "duration": "8-12 hrs"},
+        {"step_number": 2, "instruction": "Braise pork belly in soy sauce and mirin.", "duration": "90 min"},
+        {"step_number": 3, "instruction": "Marinate soft-boiled eggs in braising liquid.", "duration": "4 hrs"},
+        {"step_number": 4, "instruction": "Cook noodles to firm texture.", "duration": "2 min"},
+        {"step_number": 5, "instruction": "Ladle broth, add noodles.", "duration": "1 min"},
+        {"step_number": 6, "instruction": "Top with chashu, egg, nori, and green onion.", "duration": "2 min"}
+      ],
+      "remaining_time": "15 minutes",
+      "tips": ["12 hours minimum for ideal broth.", "Keep noodles separate until serving.", "Slice chashu cold for clean cuts."],
+      "copilot": {"next_step": "Check broth consistency, then cook noodles.", "mistakes_detected": ["Broth looks slightly thin."], "fixes": ["Continue boiling uncovered for 30 more minutes."], "readiness_percent": 60.0, "readiness_label": "Cooking — Assembly Phase"},
+      "nutrition": {"calories": 680, "protein_g": 38.0, "carbs_g": 55.0, "fat_g": 32.0, "fiber_g": 2.0, "tags": ["High Protein", "Comfort Food", "Rich"]},
+      "spice_recommendations": [
+        {"name": "Rayu (Chilli Oil)", "emoji": "🌶️", "reason": "Japanese chilli sesame oil."},
+        {"name": "White Pepper", "emoji": "⚪", "reason": "Traditional ramen seasoning."},
+        {"name": "Garlic Chips", "emoji": "🧄", "reason": "Crispy garlic adds texture."}
+      ],
+      "cuisine_style": "Japanese",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Japanese", "difficulty": "hard"}
+  },
+  {
+    "image_path": "datasets/sample/image_010.jpg",
+    "prompt": "I'm making dal makhani. The lentils are simmering with butter and cream.",
+    "response": {
+      "id": "sample-010",
+      "ingredients": [
+        {"name": "Black urad dal", "confidence": 0.95, "emoji": "🫘", "quantity": "1 cup"},
+        {"name": "Rajma (kidney beans)", "confidence": 0.90, "emoji": "🫘", "quantity": "¼ cup"},
+        {"name": "Butter", "confidence": 0.93, "emoji": "🧈", "quantity": "3 tbsp"},
+        {"name": "Cream", "confidence": 0.88, "emoji": "🥛", "quantity": "½ cup"},
+        {"name": "Tomato purée", "confidence": 0.91, "emoji": "🍅", "quantity": "1 cup"},
+        {"name": "Ginger-garlic paste", "confidence": 0.89, "emoji": "🧄", "quantity": "1 tbsp"},
+        {"name": "Kasuri methi", "confidence": 0.84, "emoji": "🍃", "quantity": "1 tsp"}
+      ],
+      "stage": "cooking",
+      "dish_prediction": {"name": "Dal Makhani", "cuisine": "Indian", "confidence": 0.94, "description": "Slow-cooked black lentils with butter and cream."},
+      "instructions": [
+        {"step_number": 1, "instruction": "Soak dal and rajma overnight.", "duration": "8 hrs"},
+        {"step_number": 2, "instruction": "Pressure-cook until very soft.", "duration": "30 min"},
+        {"step_number": 3, "instruction": "Sauté ginger-garlic paste in butter.", "duration": "3 min"},
+        {"step_number": 4, "instruction": "Add tomato purée and cook until thick.", "duration": "8 min"},
+        {"step_number": 5, "instruction": "Add cooked dal and simmer.", "duration": "30 min"},
+        {"step_number": 6, "instruction": "Stir in cream and kasuri methi.", "duration": "10 min"},
+        {"step_number": 7, "instruction": "Finish with butter on top.", "duration": "1 min"}
+      ],
+      "remaining_time": "20 minutes",
+      "tips": ["Low and slow is the mantra.", "Mash some dal for creamier texture.", "Leftovers taste even better."],
+      "copilot": {"next_step": "Add cream and kasuri methi, simmer 10 minutes.", "mistakes_detected": ["Consistency looks thick."], "fixes": ["Add ¼ cup water."], "readiness_percent": 70.0, "readiness_label": "Cooking — Simmering Phase"},
+      "nutrition": {"calories": 420, "protein_g": 18.0, "carbs_g": 42.0, "fat_g": 22.0, "fiber_g": 8.0, "tags": ["High Fiber", "Vegetarian", "Comfort Food"]},
+      "spice_recommendations": [
+        {"name": "Kasuri Methi", "emoji": "🍃", "reason": "Signature finishing herb."},
+        {"name": "Deggi Mirch", "emoji": "🌶️", "reason": "Colour and mild heat."},
+        {"name": "Garam Masala", "emoji": "🌿", "reason": "Rounds out the flavour."}
+      ],
+      "cuisine_style": "Punjabi Indian",
+      "language": "en"
+    },
+    "metadata": {"source": "synthetic", "cuisine": "Indian", "difficulty": "medium"}
+  }
+]

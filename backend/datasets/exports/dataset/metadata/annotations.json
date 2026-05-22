@@ -1,0 +1,34 @@
+[
+  {
+    "image": "img_syn_712d8e9e-76d.jpg",
+    "ingredients": [
+      "Paneer cubes",
+      "Butter",
+      "Heavy cream",
+      "Tomato paste",
+      "Kashmiri red chilli",
+      "Kasuri methi"
+    ],
+    "cuisine": "Indian",
+    "stage": "raw",
+    "dish_prediction": "Paneer Butter Masala",
+    "instruction": "Sauté ginger-garlic paste and onions in butter.",
+    "confidence": 0.81
+  },
+  {
+    "image": "img_syn_daa486cd-bb6.jpg",
+    "ingredients": [
+      "Basmati rice",
+      "Chicken thighs",
+      "Saffron",
+      "Ghee",
+      "Fried onions",
+      "Cardamom"
+    ],
+    "cuisine": "Indian",
+    "stage": "preparation",
+    "dish_prediction": "Hyderabadi Chicken Biryani",
+    "instruction": "Wash and soak basmati rice for 30 minutes.",
+    "confidence": 0.82
+  }
+]
